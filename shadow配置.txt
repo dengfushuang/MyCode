@@ -1,0 +1,9 @@
+================================================================================
+*      wget ¨Cno-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh  
+**     chmod +x shadowsocks.sh  
+***    ./shadowsocks.sh 2>&1 | tee shadowsocks.log 
+==============================================
+*       wget https://coding.net/u/chishin/p/VPS/git/raw/master/net_speeder-installer.sh
+**      bash net_speeder-installer.sh
+***     nohup /usr/local/net_speeder/net_speeder venet0 "ip" >/dev/null 2>&1 &
+****    vi /etc/rc.d/rc.local
